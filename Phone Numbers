@@ -1,0 +1,133 @@
+The Phone Numbers page in the VoiceStack Admin App display the preset phone numbers for the practice.
+
+Let's check out how to access and configure phone numbers in the Admin App.
+
+The benefits of configuring the phone numbers include: 
+
+Improved Call Routing Efficiency
+Streamlines call delivery to the right location or team at the right time.
+Accurate Call Attribution
+Helps determine which campaigns, regions, or services are driving calls.
+Optimized Patient Experience
+Ensures callers are greeted with relevant, timely, and location-appropriate messages.
+Operational Flexibility
+Enables quick configuration and reconfiguration of call handling without relying on external support.
+
+Admin Application
+Here are the step-by-step instructions to access and configure Phone Numbers from the Admin App.
+
+Navigate to Configuration > select Phone Numbers under Calls.
+The Phone Numbers screen displays a list of all registered Phone Numbers. 
+
+
+3. Refer to the table columns and descriptions below.
+
+Table Columns	Descriptions
+Phone Number	Displays a list of phone numbers registered in the system.
+Call Source	Indicates the origin or entity associated with the phone number.
+Call Source Type	Defines the status of the call source, currently marked as "Unpaid" for all entries.
+Created On	This shows the date and time when the phone number was added to the system.
+Last Update	Displays the most recent timestamp of when any updates or modifications were made to the phone number’s details.
+Location	Specifies the geographical location tied to the phone number (e.g., "Manchester," "Wales").
+Status	Indicates whether the phone number is "Active". 
+Action	Provides a "Configure" option, suggesting that users can modify or manage the phone number settings.
+
+Tip: You can view Main Numbers and Campaign Numbers separately in their respective tabs.
+
+Configure an Unallocated Phone Number
+Here are the step-by-step instructions to edit a Phone Number:
+
+Select the Unallocated tab.
+
+Click Configure.
+
+
+
+3. Specify all of the following details:
+
+Source: Field to define the origin of the number.
+Location: Dropdown to assign a geographical location.
+Status: Dropdown to set Active/Inactive status.
+Timezone: Select the timezone of the phone number.
+Number Type: Choose if the number is a Main number or a Campaign.
+If Campaign is selected, select the Campaign Type and the number for call forwarding(Forward To).
+Specify your working business hours: Section to define availability slots.
+Add Slot: Button to add business hours for each day.
+Voicemail Box: Section for voicemail settings.
+Play audio for voice mail: Option to select voicemail audio.
+Audio: Choose a voicemail recording.
+Send to: Dropdown to assign voicemail destination.
+
+
+4. Click Save to confirm the changes.
+
+
+Edit an Existing Phone Number
+1. Select the Main Numbers or Campaign tab as needed
+
+2. Click Configure on the intended number.
+
+
+3. Edit the required details
+
+4. Click Save. 
+
+
+Filters and Download
+You can filter the phone numbers by: 
+Location
+Status
+Source
+To download the list of phone numbers in .csv format, click Export CSV.
+
+Use Cases
+Multi-Location Practices
+Assign different phone numbers to specific locations like Manchester or Wales to route patient calls more efficiently.
+Campaign Tracking
+Create separate phone numbers for marketing campaigns (e.g., Google Ads, Facebook campaigns) to track call performance and ROI.
+Time-Based Call Routing
+Use Business Hours to direct calls differently during working hours vs. after-hours (e.g., to a shared voicemail box).
+Localized Voicemail Experience
+Configure different voicemail greetings and audio files per number based on the region or department.
+Temporary Numbers for Events or Promotions
+Use disposable or short-term numbers with customized settings for special events or seasonal campaigns.
+Tips
+Keep Clear Name Sources: Use consistent naming conventions for the “Source” field (e.g., “FB_Campaign_Manchester_2025”) to keep reports clean and understandable.
+Use Geo-Specific Greetings: Upload region-specific audio files for voicemail messages to enhance local relevance and user comfort.
+Keep Status Up-to-Date: Deactivate numbers no longer in use to avoid confusion or routing errors.
+Regularly Audit Working Hours: Ensure the availability slots reflect actual operating hours to avoid missed calls.
+Best Practices
+Segment Numbers by Function
+Have dedicated numbers for appointment scheduling, billing, support, and general inquiries to improve triage.
+Customize Voicemails by Time of Day
+Set different voicemail greetings for business vs. after-hours, reflecting when the patient will be contacted back.
+Leverage Working Hours Logic
+Combine business hours with voicemail destinations for seamless call redirection when staff is unavailable.
+Document All Number Configurations
+Maintain a configuration record (internally or in the Admin App Notes) for who manages each number and its intended use.
+Scenario Based Examples To Configure Phone Numbers
+Example – Location-Specific Setup
+Scenario: The practice has clinics in Manchester and Wales.
+
+Phone Number +441234567890 is assigned to Manchester.
+Business hours: Mon–Fri, 9 AM – 5 PM.
+Voicemail Box: Configured with “Manchester After-Hours” greeting.
+Status: Active.
+Result: Calls route correctly based on local hours, ensuring no lead is lost after hours.
+
+Example – Marketing Campaign Tracking
+Scenario: The marketing team launches a campaign on Google Ads.
+
+A new phone number is provisioned.
+Source: “Google Ads Spring Campaign”
+Location: “Campaign – Virtual”
+Voicemail: Custom greeting like:
+“Thanks for responding to our special offer! We’ll get back to you shortly.”
+Result: The campaign’s effectiveness is tracked via call logs tied to this specific number, and leads receive context-appropriate voicemail responses.
+
+Example – Inactive Number Handling
+Scenario: An older phone number from a now-closed location is still in the system.
+
+Admin sets Status to “Inactive”.
+Removes voicemail routing and disables working hours.
+Result: Prevents calls from being routed to a defunct line and ensures operational integrity.
