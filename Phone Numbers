@@ -1,133 +1,452 @@
-The Phone Numbers page in the VoiceStack Admin App display the preset phone numbers for the practice.
-
-Let's check out how to access and configure phone numbers in the Admin App.
-
-The benefits of configuring the phone numbers include: 
-
-Improved Call Routing Efficiency
-Streamlines call delivery to the right location or team at the right time.
-Accurate Call Attribution
-Helps determine which campaigns, regions, or services are driving calls.
-Optimized Patient Experience
-Ensures callers are greeted with relevant, timely, and location-appropriate messages.
-Operational Flexibility
-Enables quick configuration and reconfiguration of call handling without relying on external support.
-
-Admin Application
-Here are the step-by-step instructions to access and configure Phone Numbers from the Admin App.
-
-Navigate to Configuration > select Phone Numbers under Calls.
-The Phone Numbers screen displays a list of all registered Phone Numbers. 
-
-
-3. Refer to the table columns and descriptions below.
-
-Table Columns	Descriptions
-Phone Number	Displays a list of phone numbers registered in the system.
-Call Source	Indicates the origin or entity associated with the phone number.
-Call Source Type	Defines the status of the call source, currently marked as "Unpaid" for all entries.
-Created On	This shows the date and time when the phone number was added to the system.
-Last Update	Displays the most recent timestamp of when any updates or modifications were made to the phone number’s details.
-Location	Specifies the geographical location tied to the phone number (e.g., "Manchester," "Wales").
-Status	Indicates whether the phone number is "Active". 
-Action	Provides a "Configure" option, suggesting that users can modify or manage the phone number settings.
-
-Tip: You can view Main Numbers and Campaign Numbers separately in their respective tabs.
-
-Configure an Unallocated Phone Number
-Here are the step-by-step instructions to edit a Phone Number:
-
-Select the Unallocated tab.
-
-Click Configure.
-
-
-
-3. Specify all of the following details:
-
-Source: Field to define the origin of the number.
-Location: Dropdown to assign a geographical location.
-Status: Dropdown to set Active/Inactive status.
-Timezone: Select the timezone of the phone number.
-Number Type: Choose if the number is a Main number or a Campaign.
-If Campaign is selected, select the Campaign Type and the number for call forwarding(Forward To).
-Specify your working business hours: Section to define availability slots.
-Add Slot: Button to add business hours for each day.
-Voicemail Box: Section for voicemail settings.
-Play audio for voice mail: Option to select voicemail audio.
-Audio: Choose a voicemail recording.
-Send to: Dropdown to assign voicemail destination.
-
-
-4. Click Save to confirm the changes.
-
-
-Edit an Existing Phone Number
-1. Select the Main Numbers or Campaign tab as needed
-
-2. Click Configure on the intended number.
-
-
-3. Edit the required details
-
-4. Click Save. 
-
-
-Filters and Download
-You can filter the phone numbers by: 
-Location
-Status
-Source
-To download the list of phone numbers in .csv format, click Export CSV.
-
-Use Cases
-Multi-Location Practices
-Assign different phone numbers to specific locations like Manchester or Wales to route patient calls more efficiently.
-Campaign Tracking
-Create separate phone numbers for marketing campaigns (e.g., Google Ads, Facebook campaigns) to track call performance and ROI.
-Time-Based Call Routing
-Use Business Hours to direct calls differently during working hours vs. after-hours (e.g., to a shared voicemail box).
-Localized Voicemail Experience
-Configure different voicemail greetings and audio files per number based on the region or department.
-Temporary Numbers for Events or Promotions
-Use disposable or short-term numbers with customized settings for special events or seasonal campaigns.
-Tips
-Keep Clear Name Sources: Use consistent naming conventions for the “Source” field (e.g., “FB_Campaign_Manchester_2025”) to keep reports clean and understandable.
-Use Geo-Specific Greetings: Upload region-specific audio files for voicemail messages to enhance local relevance and user comfort.
-Keep Status Up-to-Date: Deactivate numbers no longer in use to avoid confusion or routing errors.
-Regularly Audit Working Hours: Ensure the availability slots reflect actual operating hours to avoid missed calls.
-Best Practices
-Segment Numbers by Function
-Have dedicated numbers for appointment scheduling, billing, support, and general inquiries to improve triage.
-Customize Voicemails by Time of Day
-Set different voicemail greetings for business vs. after-hours, reflecting when the patient will be contacted back.
-Leverage Working Hours Logic
-Combine business hours with voicemail destinations for seamless call redirection when staff is unavailable.
-Document All Number Configurations
-Maintain a configuration record (internally or in the Admin App Notes) for who manages each number and its intended use.
-Scenario Based Examples To Configure Phone Numbers
-Example – Location-Specific Setup
-Scenario: The practice has clinics in Manchester and Wales.
-
-Phone Number +441234567890 is assigned to Manchester.
-Business hours: Mon–Fri, 9 AM – 5 PM.
-Voicemail Box: Configured with “Manchester After-Hours” greeting.
-Status: Active.
-Result: Calls route correctly based on local hours, ensuring no lead is lost after hours.
-
-Example – Marketing Campaign Tracking
-Scenario: The marketing team launches a campaign on Google Ads.
-
-A new phone number is provisioned.
-Source: “Google Ads Spring Campaign”
-Location: “Campaign – Virtual”
-Voicemail: Custom greeting like:
-“Thanks for responding to our special offer! We’ll get back to you shortly.”
-Result: The campaign’s effectiveness is tracked via call logs tied to this specific number, and leads receive context-appropriate voicemail responses.
-
-Example – Inactive Number Handling
-Scenario: An older phone number from a now-closed location is still in the system.
-
-Admin sets Status to “Inactive”.
-Removes voicemail routing and disables working hours.
-Result: Prevents calls from being routed to a defunct line and ensures operational integrity.
+<zd-summary-block>
+  <p>
+    The&nbsp;<strong>Phone Numbers&nbsp;</strong>page in the&nbsp;<strong>VoiceStack Admin App&nbsp;</strong>display
+    the preset phone numbers for the practice.
+  </p>
+  <p>
+    Let's check out how to access and configure phone numbers in the Admin App.
+  </p>
+</zd-summary-block>
+<p>
+  The benefits of configuring the phone numbers include:&nbsp;
+</p>
+<ul data-start="1552" data-end="2046">
+  <li data-start="1552" data-end="1670" data-list-item-id="e65bf5fc8c2dd1b29dfa7cc874d820a51">
+    <strong data-start="1554" data-end="1590">Improved Call Routing Efficiency</strong><br>
+    Streamlines call delivery to the right location or team at the right time.
+  </li>
+  <li data-start="1672" data-end="1781" data-list-item-id="e1c4e74def2b4207b4136032c65b2daf7">
+    <strong data-start="1674" data-end="1703">Accurate Call Attribution</strong><br>
+    Helps determine which campaigns, regions, or services are driving calls.
+  </li>
+  <li data-start="1783" data-end="1908" data-list-item-id="e788fe84185ad202530c7c7cc86728c3d">
+    <strong data-start="1785" data-end="1817">Optimized Patient Experience</strong><br>
+    Ensures callers are greeted with relevant, timely, and location-appropriate
+    messages.
+  </li>
+  <li data-start="1910" data-end="2046" data-list-item-id="ecd986923364557e312f545c156b50d1b">
+    <strong data-start="1912" data-end="1939">Operational Flexibility</strong><br>
+    Enables quick configuration and reconfiguration of call handling without
+    relying on external support.
+  </li>
+</ul>
+<zd-html-block>
+  <iframe src="https://clueso.site/embed/fstefahrkc31q1cn" style="width: 100%; aspect-ratio: 16/9; border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen">
+</iframe>
+</zd-html-block>
+<h2 id="h_01KFD2XEHJ2G8S79VNNK9KV7XD">
+  <span style="background-color: #CEE2F2;">Admin Application</span>
+</h2>
+<hr>
+<p>
+  Here are the step-by-step instructions to access and configure
+  <strong>Phone Numbers</strong>&nbsp;from the Admin App.
+</p>
+<ol>
+  <li data-list-item-id="e6ee61e50dd370e7d9cb686c551060f61">
+    Navigate to <strong>Configuration&nbsp;</strong>&gt;&nbsp;select
+    <strong>Phone Numbers </strong>under <strong>Calls</strong>.
+  </li>
+  <li data-list-item-id="e25f778bb2cf18d01e5d695c3836a6ee8">
+    The&nbsp;<strong>Phone Numbers</strong>&nbsp;screen displays a list of all
+    registered&nbsp;<strong>Phone Numbers</strong>.&nbsp;
+  </li>
+</ol>
+<p>
+  <img src="/guide-media/01KFDC38KWAF3AHH8JJJ6ZXT1V" width="1994" height="889">
+</p>
+<p id="h_01JQ60BRJ8PCV51D36XK15E6TY">3. Refer to the table columns and descriptions below.</p>
+<figure class="wysiwyg-table" style="width: 100%;">
+  <table style="border-style: solid; border-width: 1px;">
+    <tbody>
+      <tr>
+        <td style="background-color: silver; border: 1px solid #096ECC; text-align: center;">
+          <em><strong>Table Columns</strong></em>
+        </td>
+        <td style="background-color: silver; border: 1px solid #096ECC; text-align: center;">
+          <em><strong>Descriptions</strong></em>
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Phone Number</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">Displays a list of phone numbers registered in the system.</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Call Source</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">
+          Indicates the origin or entity associated with the phone number.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Call Source Type</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">
+          Defines the status of the call source, currently marked as "Unpaid"
+          for all entries.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Created On</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">
+          This shows&nbsp;the date and time when the phone number was added
+          to the system.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Last Update</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">
+          Displays the most recent timestamp of when any updates or modifications
+          were made to the phone number’s details.
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Location</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">
+          Specifies the geographical location tied to the phone number
+          (e.g., "Manchester," "Wales").
+        </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Status</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">Indicates whether the phone number is "Active".&nbsp;</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #096ECC;">
+          <strong>Action</strong>
+        </td>
+        <td style="border: 1px solid #096ECC;">
+          Provides a "<strong>Configure</strong>" option, suggesting that
+          users can modify or manage the phone number settings.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="wysiwyg-image">
+  <img style="aspect-ratio: 1802/786;" src="/guide-media/01KFDC3KB42R9XYYN55M881157" width="1802" height="786">
+</figure>
+<figure class="wysiwyg-table" style="width: 100%;">
+  <table style="border-style: solid; border-width: 1px;">
+    <tbody>
+      <tr>
+        <td style="background-color: #D1E8DF; border: 1px solid #D1E8DF; padding: 10px;">
+          <strong>Tip:</strong> You can view <strong>Main Numbers</strong>
+          and <strong>Campaign Numbers</strong> separately in their respective
+          tabs.
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<figure class="wysiwyg-image">
+  <img style="aspect-ratio: 1404/779;" src="/guide-media/01KFDC4F32QHVJJAGK6G8MZ5WN" width="1404" height="779">
+</figure>
+<h3 id="h_01KFD3SCXBWDCJ6JB2A5QMJ0SX">
+  <span style="color: #054580;"><strong>Configure an Unallocated Phone Number</strong></span>
+</h3>
+<p>
+  Here are the step-by-step instructions to edit a&nbsp;<strong>Phone Number:</strong>
+</p>
+<ol>
+  <li data-list-item-id="e93a056422a1d8c06af825ab182158a4e">
+    <p id="h_01JQ3A71P21241WH09F96C6TQZ">
+      Select the <strong>Unallocated </strong>tab.
+    </p>
+  </li>
+  <li data-list-item-id="e5a0177f7ba112a0f249deb4979b74342">
+    <p id="h_01JQ3A71P21241WH09F96C6TQZ">
+      Click<strong>&nbsp;Configure</strong>.
+    </p>
+  </li>
+</ol>
+<p>
+  <strong><img src="/guide-media/01KFD3W30BKPVDCMG5YT432JRR" width="1624" height="823"></strong>
+</p>
+<p>3. Specify all of the following details:</p>
+<ul>
+  <li data-list-item-id="ea8a3fb7165a5a2670f8822648b34bd51">
+    <strong>Source: </strong>Field to define the origin of the number.
+  </li>
+  <li data-list-item-id="e7097b251cb9ca9239916509298ff271b">
+    <strong>Location: </strong>Dropdown to assign a geographical location.
+  </li>
+  <li data-list-item-id="e0e19b6fbfc60cdf75412c73dfa147e01">
+    <strong>Status: </strong>Dropdown to set&nbsp;<strong>Active/Inactive</strong>&nbsp;status.
+  </li>
+  <li data-list-item-id="e17b39ace690b09fe89085d777d28ab3d">
+    <strong>Timezone:</strong> Select the timezone of the phone number.
+  </li>
+  <li data-list-item-id="ef5b96329ffad3793105a58dab846a6b8">
+    <strong>Number Type</strong>: Choose if the number is a
+    <strong>Main </strong>number or a <strong>Campaign</strong>.
+    <ul>
+      <li data-list-item-id="e64d245dcd17b770054d78c510beaad95">
+        If <strong>Campaign </strong>is selected, select the
+        <strong>Campaign Type </strong>and the number for call forwarding(<strong>Forward To</strong>).
+      </li>
+    </ul>
+  </li>
+  <li data-list-item-id="e5d8f2628eb574d1a7c8ac4f921c7f1ad">
+    <strong>Specify your working business hours: </strong>Section to define availability
+    slots.
+  </li>
+  <li data-list-item-id="e49b1931efb3693d4974521d9974ae744">
+    <strong>Add Slot: </strong>Button to add business hours for each day.
+  </li>
+  <li data-list-item-id="e1ed18d5c7f02335804e1e58e63f80237">
+    <strong>Voicemail Box: </strong>Section for voicemail settings.
+  </li>
+  <li data-list-item-id="ef24c7d889990217485aad3dc4e13805f">
+    <strong>Play audio for voice mail: </strong>Option to select voicemail audio.
+  </li>
+  <li data-list-item-id="e739e5232d5190a369317e65eb01dda7d">
+    <strong>Audio: </strong>Choose a voicemail recording.
+  </li>
+  <li data-list-item-id="ed60341ce9fe18e835b1e12d975f7eda2">
+    <strong>Send to: </strong>Dropdown to assign voicemail destination.
+  </li>
+</ul>
+<p>
+  <img src="/guide-media/01KFD3YR94RKJ7HQHRJ8RN0FWB" width="1436" height="1133">
+</p>
+<p>
+  4. Click&nbsp;<strong>Save </strong>to confirm the changes.
+</p>
+<figure class="wysiwyg-image">
+  <img style="aspect-ratio: 1364/831;" src="/guide-media/01KFD40D9MNHVZFM3AA4PX0RKH" width="1364" height="831">
+</figure>
+<h3 id="h_01JY896XF12NF1ZHPZ9S2AMJ7T">
+  <span style="color: #054580;"><strong>Edit an Existing Phone Number</strong></span>
+</h3>
+<p>
+  1. Select the <strong>Main Numbers </strong>or <strong>Campaign </strong>tab
+  as needed
+</p>
+<p>
+  2. Click <strong>Configure </strong>on the intended number.
+</p>
+<figure class="wysiwyg-image">
+  <img style="aspect-ratio: 1405/787;" src="/guide-media/01KFD4X9PQY8ANT3KPMYSKGTWF" width="1405" height="787">
+</figure>
+<p>3. Edit the required details</p>
+<p>
+  4. Click <strong>Save</strong>.&nbsp;
+</p>
+<figure class="wysiwyg-image">
+  <img style="aspect-ratio: 1361/507;" src="/guide-media/01KFD4Y76ZA3R9DJF4DHNSKBT6" width="1361" height="507">
+</figure>
+<h3 id="h_01KFD4SN5FCTN3HNKNC45DXY88">
+  <span style="color: #054580;"><strong>Filters and Download</strong></span>
+</h3>
+<ul>
+  <li data-list-item-id="ec24cd7d544a1238c8fb3ff7b67e4200b">
+    You can filter the phone numbers by:&nbsp;
+    <ul>
+      <li class="ck-list-marker-bold" data-list-item-id="e4c68ba229efe61ffc5ae9aa1bd28eda7">
+        <strong>Location</strong>
+      </li>
+      <li class="ck-list-marker-bold" data-list-item-id="e4e24607ea9c42fcffdc25a6a5c29435c">
+        <strong>Status</strong>
+      </li>
+      <li class="ck-list-marker-bold" data-list-item-id="e32c9d4bc6f00e32119bf01c4f2dac0e8">
+        <strong>Source</strong>
+      </li>
+    </ul>
+  </li>
+  <li data-list-item-id="ef946ecd7b136765d7fb4a1fdd26c8ec8">
+    To download the list of phone numbers in .csv format, click
+    <strong>Export CSV</strong>.
+  </li>
+</ul>
+<figure class="wysiwyg-image">
+  <img style="aspect-ratio: 1589/765;" src="/guide-media/01KFDC56B7Q872E6QMV09N4KPH" width="1589" height="765">
+</figure>
+<h3 id="h_01KFD41GH5392HTZ6S3JJ11YN6">
+  <span style="color: #054580;"><strong>Use Cases</strong></span>
+</h3>
+<ol data-start="193" data-end="977">
+  <li data-start="193" data-end="348" data-list-item-id="ef4f42c409b4eee050b9fcb1558082f60">
+    <strong data-start="196" data-end="224">Multi-Location Practices</strong><br>
+    Assign different phone numbers to specific locations like Manchester or Wales
+    to route patient calls more efficiently.
+  </li>
+  <li data-start="350" data-end="507" data-list-item-id="efbf1bc1848f4c05c3b5058803b4edb48">
+    <strong data-start="353" data-end="374">Campaign Tracking</strong><br>
+    Create separate phone numbers for marketing campaigns (e.g., Google Ads,
+    Facebook campaigns) to track call performance and ROI.
+  </li>
+  <li data-start="509" data-end="667" data-list-item-id="e13873a0b5092e83cedcc36f479a1f576">
+    <strong data-start="512" data-end="539">Time-Based Call Routing</strong><br>
+    Use&nbsp;<strong data-start="549" data-end="567">Business Hours</strong>&nbsp;to
+    direct calls differently during working hours vs. after-hours (e.g., to a
+    shared voicemail box).
+  </li>
+  <li data-start="669" data-end="817" data-list-item-id="e69d545024df9913809aaf685877456e5">
+    <strong data-start="672" data-end="706">Localized Voicemail Experience</strong><br>
+    Configure different&nbsp;<strong data-start="732" data-end="755">voicemail greetings</strong>&nbsp;and
+    audio files per number based on the region or department.
+  </li>
+  <li data-start="819" data-end="977" data-list-item-id="ef5220e1bcdba4147752033dc1d44b027">
+    <strong data-start="822" data-end="868">Temporary Numbers for Events or Promotions</strong><br>
+    Use disposable or short-term numbers with customized settings for special
+    events or seasonal campaigns.
+  </li>
+</ol>
+<h3 id="h_01JY896XF2KJPT9JPM52EX1BCT">
+  <span style="color: #054580;"><strong>Tips</strong></span>
+</h3>
+<ul data-start="996" data-end="1529">
+  <li data-start="996" data-end="1160" data-list-item-id="e2938ad4768cee84bea57df4e36f35e80">
+    <strong data-start="998" data-end="1022">Keep Clear Name Sources</strong>:
+    Use consistent naming conventions for the “Source” field (e.g., “FB_Campaign_Manchester_2025”)
+    to keep reports clean and understandable.
+  </li>
+  <li data-start="1162" data-end="1298" data-list-item-id="e6fc043db82ebb26488e6e97d250a3148">
+    <strong data-start="1164" data-end="1194">Use Geo-Specific Greetings</strong>:
+    Upload region-specific audio files for voicemail messages to enhance local
+    relevance and user comfort.
+  </li>
+  <li data-start="1300" data-end="1403" data-list-item-id="e326825bec5ef6c312b37ded4f8f4bc31">
+    <strong data-start="1302" data-end="1328">Keep Status Up-to-Date</strong>:
+    Deactivate numbers no longer in use to avoid confusion or routing errors.
+  </li>
+  <li data-start="1405" data-end="1529" data-list-item-id="e81f2a951c20652e79ae8026188b2ca00">
+    <strong data-start="1407" data-end="1440">Regularly Audit Working Hours</strong>:
+    Ensure the&nbsp;<strong data-start="1453" data-end="1475">availability slots</strong>&nbsp;reflect
+    actual operating hours to avoid missed calls.
+  </li>
+</ul>
+<h3 id="h_01JY896XF2K6FPVY5QA9HMW95D">
+  <span style="color: #054580;"><strong>Best Practices</strong></span>
+</h3>
+<ul data-start="2075" data-end="2712">
+  <li data-start="2075" data-end="2223" data-list-item-id="e857f8a2cb70934097b32f62cf7a0389e">
+    <strong data-start="2077" data-end="2108">Segment Numbers by Function</strong><br>
+    Have dedicated numbers for appointment scheduling, billing, support, and
+    general inquiries to improve triage.
+  </li>
+  <li data-start="2225" data-end="2387" data-list-item-id="eab9976d4067dc73943d00ff239497e68">
+    <strong data-start="2227" data-end="2266">Customize Voicemails by Time of Day</strong><br>
+    Set different voicemail greetings for business vs. after-hours, reflecting
+    when the patient will be contacted back.
+  </li>
+  <li data-start="2389" data-end="2544" data-list-item-id="efabef7c22164e2fee23cb54cf227f35e">
+    <strong data-start="2391" data-end="2423">Leverage Working Hours Logic</strong><br>
+    Combine&nbsp;<strong data-start="2437" data-end="2455">business hours</strong>&nbsp;with&nbsp;<strong data-start="2461" data-end="2487">voicemail destinations</strong>&nbsp;for
+    seamless call redirection when staff is unavailable.
+  </li>
+  <li data-start="2546" data-end="2712" data-list-item-id="e409d032e44893a8147695a844f5985b1">
+    <strong data-start="2548" data-end="2586">Document All Number Configurations</strong><br>
+    Maintain a configuration record (internally or in the Admin App Notes) for
+    who manages each number and its intended use.
+  </li>
+</ul>
+<h3 id="h_01JY896XF25KDD0YFRYA754FA2">
+  <span style="color: #054580;"><strong>Scenario Based Examples To Configure Phone Numbers</strong></span>
+</h3>
+<figure class="wysiwyg-table" style="width: 100%;">
+  <table style="border-style: solid; border-width: 1px;">
+    <tbody>
+      <tr>
+        <td style="border-style: solid; border-width: 1px;">
+          <h3 id="h_01JY896XF288023YD1CRKW4X8E" data-start="2744" data-end="2788">
+            <em><span class="wysiwyg-underline">Example – Location-Specific Setup</span></em>
+          </h3>
+          <p data-start="2789" data-end="2856">
+            <strong data-start="2789" data-end="2801">Scenario</strong>:
+            The practice has clinics in&nbsp;<em data-start="2831" data-end="2843">Manchester</em>&nbsp;and&nbsp;<em data-start="2848" data-end="2855">Wales</em>.
+          </p>
+          <ul data-start="2858" data-end="3049">
+            <li data-start="2858" data-end="2919" data-list-item-id="e861f74224ae5de3bbafbcb95676c3d77">
+              Phone Number&nbsp;<code data-start="2873" data-end="2888">+441234567890</code>&nbsp;is
+              assigned to&nbsp;<strong data-start="2904" data-end="2918">Manchester</strong>.
+            </li>
+            <li data-start="2920" data-end="2959" data-list-item-id="e486c45f1417d40f3084ebf63b247ffba">Business hours: Mon–Fri, 9 AM – 5 PM.</li>
+            <li data-start="2960" data-end="3027" data-list-item-id="e6e23248e3e3e463cba086da22f96712d">
+              Voicemail Box: Configured with “Manchester After-Hours”
+              greeting.
+            </li>
+            <li data-start="3028" data-end="3049" data-list-item-id="e95a65cdd527f7decf109648d7e219727">
+              Status:&nbsp;<strong data-start="3038" data-end="3048">Active</strong>.
+            </li>
+          </ul>
+          <p data-start="3051" data-end="3144">
+            <strong data-start="3051" data-end="3061">Result</strong>:
+            Calls route correctly based on local hours, ensuring no lead
+            is lost after hours.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-style: solid; border-width: 1px;">
+          <h3 id="h_01JY896XF21JZQN9278DX84N2B" data-start="3151" data-end="3199">
+            <em><span class="wysiwyg-underline">Example – Marketing Campaign Tracking</span></em>
+          </h3>
+          <p data-start="3200" data-end="3267">
+            <strong data-start="3200" data-end="3212">Scenario</strong>:
+            The marketing team launches a campaign on Google Ads.
+          </p>
+          <ul data-start="3269" data-end="3507">
+            <li data-start="3269" data-end="3305" data-list-item-id="ec06417a567555beda6d37ff76754bfee">A new phone number is provisioned.</li>
+            <li data-start="3306" data-end="3348" data-list-item-id="e72f4e2da44e47bff48672b61a8725c4c">
+              <strong data-start="3308" data-end="3318">Source</strong>:
+              “Google Ads Spring Campaign”
+            </li>
+            <li data-start="3349" data-end="3385" data-list-item-id="e7050acb7f4ca62e413a6f2e40f0059d9">
+              <strong data-start="3351" data-end="3363">Location</strong>:
+              “Campaign – Virtual”
+            </li>
+            <li data-start="3386" data-end="3507" data-list-item-id="edcd8c91647d65cee8a6ffeda7714af2f">
+              <strong data-start="3388" data-end="3401">Voicemail</strong>:
+              Custom greeting like:<br>
+              <em data-start="3429" data-end="3507">“Thanks for responding to our special offer! We’ll get back to you shortly.”</em>
+            </li>
+          </ul>
+          <p data-start="3509" data-end="3663">
+            <strong data-start="3509" data-end="3519">Result</strong>:
+            The campaign’s effectiveness is tracked via call logs tied
+            to this specific number, and leads receive context-appropriate
+            voicemail responses.
+          </p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-style: solid; border-width: 1px;">
+          <h3 id="h_01JY896XF24E2EE9ATGZR81XFP" data-start="3670" data-end="3715">
+            <em><span class="wysiwyg-underline">Example – Inactive Number Handling</span></em>
+          </h3>
+          <p data-start="3716" data-end="3802">
+            <strong data-start="3716" data-end="3728">Scenario</strong>:
+            An older phone number from a now-closed location is still
+            in the system.
+          </p>
+          <ul data-start="3804" data-end="3898">
+            <li data-start="3804" data-end="3842" data-list-item-id="eadbd249f58ce8b8366d1e5f35abc67a7">
+              Admin sets&nbsp;<strong data-start="3817" data-end="3827">Status</strong>&nbsp;to
+              “Inactive”.
+            </li>
+            <li data-start="3843" data-end="3898" data-list-item-id="e347d0675c4cf15acf4e0502c135ea7b5">Removes voicemail routing and disables working hours.</li>
+          </ul>
+          <p data-start="3900" data-end="3997">
+            <strong data-start="3900" data-end="3910">Result</strong>:
+            Prevents calls from being routed to a defunct line and ensures
+            operational integrity.
+          </p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
