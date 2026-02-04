@@ -1,0 +1,29 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Documentation",
+  "colors": {
+    "primary": "#0D9373"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Intro to VoiceStack",
+        "anchors": [
+          {
+            "anchor": "Untitled Anchor",
+            "groups": [
+              {
+                "group": "Getting Started",
+                "pages": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Admin Guide"
+      }
+    ]
+  }
+}
